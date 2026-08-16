@@ -1,0 +1,29 @@
+# Core ML & Deep Learning
+torch
+torchvision
+torchaudio
+
+# Hugging Face Ecosystem
+transformers
+diffusers
+datasets
+accelerate
+
+# Interactive UI
+gradio
+
+# Audio Processing
+librosa
+pydub
+
+# Computer Vision & Image Manipulation
+opencv-python
+pillow
+
+# Data Science & Visualization
+numpy
+pandas
+matplotlib
+
+# Miscellaneous utilities
+ipython
