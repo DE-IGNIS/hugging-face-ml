@@ -6,7 +6,7 @@
 [![Gradio](https://img.shields.io/badge/Gradio-orange?style=flat-square&logo=gradio&logoColor=white)](https://gradio.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/LICENSE)
 
-Welcome to the **Machine Learning using Hugging Face **! This repository is a guide designed to explore the Hugging Face ecosystem, models, and media processing. It covers a wide range of tasks including Natural Language Processing (NLP), Audio Processing, Computer Vision, Video Generation, and web-based Interactive User Interfaces.
+Welcome to the Machine Learning using Hugging Face ! This repository is a guide designed to explore the Hugging Face ecosystem, models, and media processing. It covers a wide range of tasks including Natural Language Processing (NLP), Audio Processing, Computer Vision, Video Generation, and web-based Interactive User Interfaces.
 
 ---
 
@@ -18,7 +18,6 @@ Welcome to the **Machine Learning using Hugging Face **! This repository is a gu
 *   **[video_models_hugging_face.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/video_models_hugging_face.py)**: Generative video modeling using Stable Video Diffusion (SVD) and AnimateDiff pipelines.
 *   **[gradio_hugging_face.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/gradio_hugging_face.py)**: Interactive, web-based UI creation demonstrating layouts, state events, custom styling, and serving models visually.
 *   **[requirements.txt](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/requirements.txt)**: Python library dependencies list.
-*   **[LICENSE](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/LICENSE)
 
 ---
 
