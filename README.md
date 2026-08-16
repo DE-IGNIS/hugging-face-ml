@@ -1,4 +1,4 @@
-# 🤗 Hugging Face & Machine Learning Playground
+# 🤗 Machine Learning using Hugging Face
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)](https://pytorch.org/)
@@ -6,15 +6,11 @@
 [![Gradio](https://img.shields.io/badge/Gradio-orange?style=flat-square&logo=gradio&logoColor=white)](https://gradio.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/LICENSE)
 
-Welcome to the **Hugging Face & Machine Learning Playground**! This repository is a comprehensive, interactive learning guide and experimental space designed to explore the Hugging Face ecosystem, deep learning models, and media processing. It covers a wide range of tasks including Natural Language Processing (NLP), Audio Processing, Computer Vision, Video Generation, and web-based Interactive User Interfaces.
-
-Whether you are looking to understand tokenization mechanics, implement custom autoregressive sampling methods, run diffusion pipelines locally with VRAM optimization, or build full-stack ML demos, this project serves as a structured, step-by-step developer tutorial.
+Welcome to the **Machine Learning using Hugging Face **! This repository is a guide designed to explore the Hugging Face ecosystem, models, and media processing. It covers a wide range of tasks including Natural Language Processing (NLP), Audio Processing, Computer Vision, Video Generation, and web-based Interactive User Interfaces.
 
 ---
 
 ## 📂 Repository Structure
-
-The project is organized into modular scripts, each focusing on a specific domain of machine learning:
 
 *   **[transformer_huggingface_tutorial.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/transformer_huggingface_tutorial.py)**: NLP fundamentals, tokenization, custom text decoding sampling algorithms, sentiment classification, NER, QA, and translation.
 *   **[audio_models_hugging_face.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/audio_models_hugging_face.py)**: Digital Signal Processing (DSP) for audio (STFT, Mel Spectrograms), Audio Spectrogram Transformers (AST), Automatic Speech Recognition (ASR), and Text-to-Speech (TTS).
@@ -22,7 +18,7 @@ The project is organized into modular scripts, each focusing on a specific domai
 *   **[video_models_hugging_face.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/video_models_hugging_face.py)**: Generative video modeling using Stable Video Diffusion (SVD) and AnimateDiff pipelines.
 *   **[gradio_hugging_face.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/gradio_hugging_face.py)**: Interactive, web-based UI creation demonstrating layouts, state events, custom styling, and serving models visually.
 *   **[requirements.txt](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/requirements.txt)**: Python library dependencies list.
-*   **[LICENSE](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/LICENSE)**: License details (MIT License).
+*   **[LICENSE](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/LICENSE)
 
 ---
 
@@ -64,20 +60,20 @@ Found in **[transformer_huggingface_tutorial.py](file:///d:/%5B07%5D%20LEARNING+
 This module delves into the core mechanics of Transformers:
 *   **Tokenization Mechanics**: Demystifies subword tokenization (using GPT-2's vocabulary) on complex words like `pneumonoultramicroscopicsilicovolcanoconiosis` and `homoscedasticity`.
 *   **Custom Decoder Sampling Algorithms**:
-    *   `[greedy_decode](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/transformer_huggingface_tutorial.py#L77)`: Greedy decoding choosing the maximum probability logits.
-    *   `[top_k_sampling](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/transformer_huggingface_tutorial.py#L84)`: Restricts token candidates to the top $K$ items.
-    *   `[top_p_sampling](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/transformer_huggingface_tutorial.py#L91)`: Nucleus sampling that filters based on cumulative probability mass $P$.
-    *   `[temperature_sampling](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/transformer_huggingface_tutorial.py#L114)`: Distorts logits scale to control output randomness.
+    *   `[greedy_decode]`: Greedy decoding choosing the maximum probability logits.
+    *   `[top_k_sampling]`: Restricts token candidates to the top $K$ items.
+    *   `[top_p_sampling]`: Nucleus sampling that filters based on cumulative probability mass $P$.
+    *   `[temperature_sampling]`: Distorts logits scale to control output randomness.
 *   **High-Level NLP Pipelines**:
     *   *Sentiment Analysis*: Benchmarked on the Stanford IMDB dataset using DistilBERT, and Financial Sentiment Analysis using FinBERT (`ProsusAI/finbert`).
     *   *Named Entity Recognition (NER)*: Automated identification of entities, locations, and organizations.
     *   *Question Answering*: Extraction-based QA using `distilbert-base-cased-distilled-squad`.
-    *   *Machine Translation*: Translates text from English to French using `facebook/nllb-200-distilled-600M` via `[translate_sentence](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/transformer_huggingface_tutorial.py#L259)`.
+    *   *Machine Translation*: Translates text from English to French using `facebook/nllb-200-distilled-600M` via `[translate_sentence]`.
 
 ---
 
 ### 🔊 2. Audio Processing & Classification
-Found in **[audio_models_hugging_face.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/audio_models_hugging_face.py)**
+Found in **[audio_models_hugging_face.py]**
 
 Covers DSP operations and audio-native machine learning models:
 *   **Digital Signal Processing (DSP)**: Loading audio using `librosa`, plotting waveforms with `matplotlib`, and generating mathematical transforms:
@@ -92,7 +88,7 @@ Covers DSP operations and audio-native machine learning models:
 ---
 
 ### 🎨 3. Image Preprocessing & Generation
-Found in **[diffusers_models_images_hugging_face.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/diffusers_models_images_hugging_face.py)**
+Found in **[diffusers_models_images_hugging_face.py]**
 
 Explores classic CV and generative modeling:
 *   **Computer Vision Preprocessing**: Channel manipulation (RGB splitting), resizing, and grayscale conversions using `PIL` and `OpenCV`.
@@ -102,7 +98,7 @@ Explores classic CV and generative modeling:
 ---
 
 ### 🎬 4. Video Generation & Motion
-Found in **[video_models_hugging_face.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/video_models_hugging_face.py)**
+Found in **[video_models_hugging_face.py]**
 
 Generates motion sequences from static images and prompt-based configurations:
 *   **Stable Video Diffusion (SVD)**: Uses `stabilityai/stable-video-diffusion-img2vid-xt` in `float16` precision to transform an image (e.g. `elmo.jpg`) into a high-quality video clip (`elmo.mp4`).
@@ -112,7 +108,7 @@ Generates motion sequences from static images and prompt-based configurations:
 ---
 
 ### 🌐 5. Interactive User Interfaces (Gradio)
-Found in **[gradio_hugging_face.py](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/gradio_hugging_face.py)**
+Found in **[gradio_hugging_face.py]**
 
 A massive collection of Gradio configurations mapping out interactive dashboards:
 *   **Interactive Components**: Number inputs, text inputs, sliders, dropdown lists, image file uploads, and JSON/Label output formats.
@@ -151,8 +147,8 @@ Running modern generative models locally can be resource-heavy. This playground 
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](file:///d:/%5B07%5D%20LEARNING++/ml-hugging-face/LICENSE) file for details.
+This project is licensed under the MIT License 
 
 ---
 
-*Developed with ❤️ by [DE-IGNIS](https://github.com/DE-IGNIS).*
+*Made with ❤️ by [DE-IGNIS](https://github.com/DE-IGNIS).*
